@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 688a1b94623ccaf44b1b0ef3f51fba31
+timeCreated: 1455214290
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: aztecDown_0
+    21300002: aztecDown_1
+    21300004: aztecDown_2
+    21300006: aztecDown_3
+    21300008: aztecDown_4
+    21300010: aztecDown_5
+    21300012: aztecDown_6
+    21300014: aztecDown_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 400
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: aztecDown_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 58
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 39}
+        - {x: 24, y: 51}
+        - {x: -12, y: 51}
+        - {x: -29, y: 36}
+        - {x: -29, y: -60}
+        - {x: -16, y: -73}
+        - {x: -4, y: -69}
+        - {x: 5, y: -86}
+        - {x: 17, y: -86}
+        - {x: 19, y: -84}
+        - {x: 20, y: -75}
+        - {x: 29, y: -36}
+    - name: aztecDown_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 58
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 50.5}
+        - {x: -29, y: 34.5}
+        - {x: -29, y: -6.5}
+        - {x: -21, y: -74.5}
+        - {x: 17, y: -74.5}
+        - {x: 27, y: -46.5}
+        - {x: 27, y: 47.5}
+        - {x: 23, y: 50.5}
+    - name: aztecDown_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 58
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 27.5}
+        - {x: 14, y: 50.5}
+        - {x: -16, y: 50.5}
+        - {x: -29, y: 35.5}
+        - {x: -29, y: -18.5}
+        - {x: -23, y: -78.5}
+        - {x: -8, y: -78.5}
+        - {x: -6, y: -76.5}
+        - {x: 21, y: -62.5}
+        - {x: 29, y: -29.5}
+    - name: aztecDown_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 58
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 54.5}
+        - {x: -29, y: 42.5}
+        - {x: -29, y: -35.5}
+        - {x: -20, y: -82.5}
+        - {x: -5, y: -82.5}
+        - {x: 22, y: -63.5}
+        - {x: 29, y: -9.5}
+        - {x: 29, y: 33.5}
+        - {x: 12, y: 54.5}
+    - name: aztecDown_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 58
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 50.5}
+        - {x: -29, y: 35.5}
+        - {x: -29, y: -74.5}
+        - {x: 29, y: -74.5}
+        - {x: 29, y: 34.5}
+        - {x: 19, y: 50.5}
+    - name: aztecDown_5
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 58
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 50.5}
+        - {x: -28, y: 26.5}
+        - {x: -28, y: -74.5}
+        - {x: 19, y: -74.5}
+        - {x: 28, y: -8.5}
+        - {x: 28, y: 33.5}
+        - {x: 17, y: 50.5}
+    - name: aztecDown_6
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 58
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 29.5}
+        - {x: 26, y: 32.5}
+        - {x: 14, y: 50.5}
+        - {x: -11, y: 50.5}
+        - {x: -29, y: 32.5}
+        - {x: -29, y: -49.5}
+        - {x: -27, y: -67.5}
+        - {x: 8, y: -78.5}
+        - {x: 16, y: -78.5}
+        - {x: 18, y: -76.5}
+        - {x: 19, y: -67.5}
+        - {x: 29, y: -3.5}
+    - name: aztecDown_7
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 58
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 54.5}
+        - {x: -29, y: 39.5}
+        - {x: -29, y: -59.5}
+        - {x: -28, y: -69.5}
+        - {x: 0, y: -82.5}
+        - {x: 20, y: -82.5}
+        - {x: 29, y: -18.5}
+        - {x: 29, y: 41.5}
+        - {x: 20, y: 54.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

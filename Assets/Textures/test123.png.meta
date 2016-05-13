@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 67b954fbaf7d82d41b1b25031bd71d47
+timeCreated: 1432059225
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: test123_0
+    21300002: test123_1
+    21300004: test123_2
+    21300006: test123_3
+    21300008: test123_4
+    21300010: test123_5
+    21300012: test123_6
+    21300014: test123_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: test123_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 548
+        width: 139
+        height: 407
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test123_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 553
+        width: 145
+        height: 402
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test123_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 557
+        width: 155
+        height: 401
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test123_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 553
+        width: 158
+        height: 402
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test123_4
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 553
+        width: 148
+        height: 398
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test123_5
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 553
+        width: 165
+        height: 400
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test123_6
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 553
+        width: 152
+        height: 400
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test123_7
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 553
+        width: 155
+        height: 402
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
