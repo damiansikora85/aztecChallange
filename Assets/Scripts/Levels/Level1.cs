@@ -101,12 +101,14 @@ public class Level1 : LevelLogic
 
 	public override void OnSwipeUp()
 	{
-		Player.OnJump();
+		Level1PlayerScript pl1 = Player as Level1PlayerScript;
+		pl1.OnJump();
 	}
 
 	public override void OnSwipeDown()
 	{
-		Player.OnDown();
+		Level1PlayerScript pl1 = Player as Level1PlayerScript;
+		pl1.OnDown();
 	}
 
 }

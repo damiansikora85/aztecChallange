@@ -6,14 +6,14 @@ public class Level2 : LevelLogic
 	public override void OnTouchLeft()
 	{
 		base.OnTouchLeft();
-
-		Player.MoveLeft();
+		Level2PlayerScript pl2 = Player as Level2PlayerScript;
+		pl2.MoveLeft();
 	}
 
 	public override void OnTouchRight()
 	{
 		base.OnTouchRight();
-
-		Player.MoveRight();
+		Level2PlayerScript pl2 = Player as Level2PlayerScript;
+		pl2.MoveRight();
 	}
 }

@@ -93,6 +93,11 @@ public class InputManager : MonoBehaviour
 					foreach (IInputListener listener in listeners)
 						listener.OnTouchLeft();
 				}
+				else if(RectTransformUtility.RectangleContainsScreenPoint(RightRectTransform, touch.position))
+				{
+					foreach (IInputListener listener in listeners)
+						listener.OnTouchRight();
+				}
 				break;
 				
 			case TouchPhase.Ended:

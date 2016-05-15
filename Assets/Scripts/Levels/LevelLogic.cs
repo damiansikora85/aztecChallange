@@ -12,7 +12,7 @@ using UnityEngine.UI;
 
 public class LevelLogic : MonoBehaviour, IInputListener
 {
-	public PlayerScript Player;
+	public BasePlayerScript Player;
 	public Text LevelProgressTime;
 	public ProgressController ProgressController;
 	public HUDScript HUD;
@@ -75,12 +75,12 @@ public class LevelLogic : MonoBehaviour, IInputListener
 
 	public virtual void OnSwipeUp()
 	{
-		Player.OnJump();
+		//Player.OnJump();
 	}
 
 	public virtual void OnSwipeDown()
 	{
-		Player.OnDown();
+		//Player.OnDown();
 	}
 
 	public virtual void OnSwipeLeft()

@@ -29,8 +29,8 @@ public class SpearScript : MonoBehaviour
 		//state = animator.GetCurrentAnimatorStateInfo(0);
 		//animator.StopPlayback();
 		transform.SetParent(objTransform, true);
-		stickTransform.x = transform.position.x;
-		transform.localPosition = stickTransform;
+		//stickTransform.x = transform.position.x;
+		//transform.localPosition = stickTransform;
 	}
 
 	public void Reset()
