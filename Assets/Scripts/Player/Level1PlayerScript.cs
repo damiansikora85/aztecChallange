@@ -32,6 +32,8 @@ public class Level1PlayerScript : BasePlayerScript
 	{
 		base.Restart();
 
+		animator.CrossFade("test2", 0f);
+
 		hitSpear.Reset();
 	}
 

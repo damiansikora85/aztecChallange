@@ -28,10 +28,33 @@ public class BasePlayerScript : MonoBehaviour
 
 	}
 
+	void OnTriggerEnter2D(Collider2D collider)
+	{
+		OnHit(collider);
+	}
+
+
 	void OnCollisionEnter2D(Collision2D coll)
 	{
 		OnHit(coll);
 	}
+
+	public virtual void OnHit(Collider2D coll)
+	{
+		if (isHit)
+			return;
+
+		isHit = true;
+
+		hitSFX.Play();
+
+		//stop aztec animation
+
+		animator.SetTrigger("kill");
+
+		GameManager.Instance.Level.OnHit();
+	}
+		
 
 	public virtual void OnHit(Collision2D coll)
 	{
@@ -46,10 +69,6 @@ public class BasePlayerScript : MonoBehaviour
 
 		animator.SetTrigger("kill");
 
-		
-
-		//hitSpear.gameObject.transform.SetParent(gameObject.transform, true);
-
 		GameManager.Instance.Level.OnHit();
 	}
 
@@ -57,7 +76,7 @@ public class BasePlayerScript : MonoBehaviour
 	{
 		isHit = false;
 		animator.speed = 1.0f;
-		animator.CrossFade("test2", 0f);
+		
 		
 	}
 

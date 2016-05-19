@@ -18,6 +18,14 @@ public class BoulderSpawner : MonoBehaviour
 	
 	}
 
+	public void SetEnable(bool enable)
+	{
+		if(enable)
+			StartCoroutine("SpawnCoroutine");
+		else
+			StopCoroutine("SpawnCoroutine");
+	}
+
 	IEnumerator SpawnCoroutine()
 	{
 		while(true)

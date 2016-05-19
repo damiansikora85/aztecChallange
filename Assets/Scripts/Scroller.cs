@@ -9,12 +9,15 @@ public class Scroller : MonoBehaviour
 
 	private List<Transform> backgroundPart;
 	private Vector2 size;
+	private bool disable;
 
 	// Use this for initialization
 	void Start ()
 	{
 		// Get all the children of the layer with a renderer
 		backgroundPart = new List<Transform>();
+
+		disable = false;
 
 		for (int i = 0; i < transform.childCount; i++)
 		{
@@ -39,9 +42,17 @@ public class Scroller : MonoBehaviour
 		).ToList();
 	}
 
+	public void SetEnable(bool enable)
+	{
+		disable = !enable;
+	}
+
 	// Update is called once per frame
 	void Update()
 	{
+		if (disable)
+			return;
+
 		transform.position -= new Vector3(0, Speed*Time.deltaTime, 0);
 
 		Transform firstChild = backgroundPart.FirstOrDefault();
